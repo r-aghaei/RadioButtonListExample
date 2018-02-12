@@ -5,6 +5,15 @@ VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioButonListExample", "RadioButonListExample\RadioButonListExample.csproj", "{BAAE8146-66E5-4C07-A5D6-6E6FEDACED87}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7FDC3614-75AF-4958-81EB-3DB30D445C75}"
+	ProjectSection(SolutionItems) = preProject
+		..\Disabled.png = ..\Disabled.png
+		..\LTR.png = ..\LTR.png
+		..\MultiColumn.png = ..\MultiColumn.png
+		..\README.md = ..\README.md
+		..\RTL.png = ..\RTL.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

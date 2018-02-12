@@ -77,16 +77,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="Solution Items\README.md" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Solution Items\Disabled.png" />
-    <Content Include="Solution Items\LTR.png" />
-    <Content Include="Solution Items\MultiColumn.png" />
-    <Content Include="Solution Items\RTL.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
