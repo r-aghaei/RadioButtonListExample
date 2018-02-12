@@ -6,7 +6,6 @@ using System.Windows.Forms.VisualStyles;
 
 namespace RadioButonListExample
 {
-
     public class RadioButtonList : ListBox
     {
         Size s;
@@ -19,7 +18,6 @@ namespace RadioButonListExample
         }
         protected override void OnDrawItem(DrawItemEventArgs e)
         {
-
             var text = (Items.Count > 0) ? GetItemText(Items[e.Index]) : Name;
             Rectangle r = e.Bounds; Point p;
             var flags = TextFormatFlags.Default | TextFormatFlags.NoPrefix;
